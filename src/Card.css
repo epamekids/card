@@ -1,0 +1,23 @@
+.demo-card-wide.mdl-card {
+  width: 612px;
+  margin: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+img {
+  width: 612px;
+  height: 220px;
+}
+
+.mdl-card__supporting-text {
+  height: 50px;
+}
+
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 1px;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
