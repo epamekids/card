@@ -1,16 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Card from './Card';
+//import App from './App';
+//import Card from './Card';
+import Nim from './Nim';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 
-<span>
+<div>
+  <Nim count="100"/>
+</div>
+
+/*<span>
   <Card card__title="Welcome"></Card>
   <Card card__title="Welcome"></Card>
-</span>
+</span>*/
+
+
   , document.getElementById('root'));
 
 
