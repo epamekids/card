@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Nim.css';
 
 
 class Nim extends Component {
@@ -39,8 +40,10 @@ class Nim extends Component {
           </div>
           <div id="bars">
               {barsView}
+              <br/>
           </div>
           <div id="buttons">
+            <br/>
             <button onClick={() => {this.removeBars(1)}}>1</button>
             <button onClick={() => {this.removeBars(2)}}>2</button>
             <button onClick={() => {this.removeBars(3)}}>3</button>
