@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.jpg';
-import './Card.css';
+import './.css';
 
 
 class Card extends Component {
-    //constructor () {
-    //  super()
-    //}
 
 
     render () {
