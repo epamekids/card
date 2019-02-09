@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 <div>
-  <Nim count="200"/>
+  <Nim count="150"/>
 </div>
 
 /*<span>
